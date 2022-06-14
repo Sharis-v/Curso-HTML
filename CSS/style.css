@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+    font-size: 130%;
+}
+
+h2 {
+    color: maroon;
+}
+p{
+    text-align: justify;
+}
+p.cen{
+    text-align: center;
+}

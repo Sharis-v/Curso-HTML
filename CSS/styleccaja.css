@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#box {
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid aquamarine;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    overflow: auto;
+
+}
+
+#content {
+    background-color: #90ee90;
+    /*green*/
+}
+
+h1 {
+    margin-bottom: 30px;
+}

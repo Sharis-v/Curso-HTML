@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Selectores de pseudo clase</title>
+    <style>
+      /* Styles go here. */
+      a:link, a:visited{
+        text-decoration: none;
+        background-color:aqua;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 1px solid rosybrown;
+        color:black;
+        display: block;
+        width:200px;
+        text-align: center;
+        margin-bottom: 2px;
+      }
+      a:hover, a:active{
+        background-color:cornflowerblue;
+        color:darkslateblue;
+      }
+      header li:nth-child(3){
+        font-size: 25px;
+      }
+       /*odd=impares*/
+      section div:nth-child(odd){
+        background-color: aquamarine;
+      }
+       /*even=pares*/
+      section div:nth-child(even){
+        background-color:burlywood;
+
+      }
+
+      section div:nth-child(4):hover{
+        background-color: aqua;
+        cursor:pointer;
+      }
+      h1{
+        text-align: center;
+        color: blueviolet;
+
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Selectores de pseudo clase</h1>
+
+    <header>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li>
+          <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <a href="https://www.ingenieria.unam.mx/" target="_blank"
+            >Facultad de ingenieria</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <section>
+      <div>DIV 1</div>
+      <div>DIV 2</div>
+      <div>DIV 3</div>
+      <div>DIV 4</div>
+      <div>DIV 5</div>
+      <div>DIV 6</div>
+      <div>DIV 7</div>
+      <div>DIV 8</div>
+      <div>DIV 9</div>
+      <div>DIV 10</div>
+      <div>DIV 11</div>
+      <div>DIV 12</div>
+      <div>DIV 13</div>
+      <div>DIV 14</div>
+      <div>DIV 15</div>
+      <div>DIV 16</div>
+      <div>DIV 17</div>
+      <div>DIV 18</div>
+      <div>DIV 19</div>
+      <div>DIV 20</div>
+    </section>
+  </body>
+</html>

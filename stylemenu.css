@@ -1,0 +1,63 @@
+h1{
+    height: 60px;
+    background-color:burlywood;
+    text-align: center;
+    font-family: cursive;
+    color:blueviolet;
+}
+
+
+div {
+    list-style: none;
+
+    width: 30%;
+    border: 0px solid black;
+    box-sizing:content-box;
+    float: left;
+    padding: 10;
+    
+}
+
+#p1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color:aquamarine;
+    width: 30%;
+    height: 25px;
+}
+
+div>section {
+    
+   background-image:url(watercolor-bokeh-pastel-background.jpg);
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    background-color:aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rosybrown;
+    color:chocolate;
+    display: block;
+    width:28;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  a:hover, a:active{
+    background-color:cornflowerblue;
+    color:darkslateblue;
+  }
+  section tr:nth-child(odd){
+    background-color: aquamarine;
+  }
+  section tr:nth-child(even){
+    background-color:burlywood;
+  }
+  section tr:nth-child(odd):hover{
+    background-color: coral;
+    cursor:pointer;
+  }
+  section tr:nth-child(even):hover{
+    background-color:cornflowerblue;
+    cursor:pointer;
+  }
